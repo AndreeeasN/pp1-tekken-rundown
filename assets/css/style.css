@@ -1,0 +1,22 @@
+header h1{
+    text-align: center;
+}
+
+nav{
+    height: 45px;
+    flex: auto;
+    background: #000;
+}
+
+nav a{
+    color: #fff;
+}
+
+#nav-list{
+    padding: 15px 0;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
