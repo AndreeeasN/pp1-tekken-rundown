@@ -1,10 +1,26 @@
-header h1{
-    text-align: center;
+/* page positioning */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #444;
+}
+
+#main-logo{
+    display: block;
+    padding:15px 0 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
 }
 
 nav{
     height: 45px;
-    flex: auto;
+    padding: 0%;
+    width: 100%;
     background: #000;
 }
 
