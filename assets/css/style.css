@@ -25,7 +25,7 @@ header{
 
 #main-logo{
     display: block;
-    padding:10px 0 0;
+    padding: 10px 0 0;
     margin: 0 auto;
     resize: none;
 }
@@ -40,6 +40,8 @@ nav{
 nav a{
     color: #fff;
     text-decoration: none;
+    margin: 0 15px;
+    font-size: 140%;
 }
 
 #nav-list{
@@ -52,15 +54,11 @@ nav a{
     justify-content:space-evenly;
 }
 
-#nav-list h2{
-    margin: 0 15px;
-}
-
 /* hero image */
 .hero-outer{
     height: 550px;
     width: 100%;
-    padding-top: 200px;
+    padding-top: 190px;
     position: relative;
     overflow: hidden;
 }
