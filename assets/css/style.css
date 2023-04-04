@@ -58,12 +58,21 @@ nav a{
 
 /* hero image */
 #hero-outer{
-    height: 600px;
+    height: 550px;
     width: 100%;
+    padding-top: 200px;
+    position: relative;
+    overflow: hidden;
 }
 
 #hero-image{
-    background-color:lightslategrey;
-    height: inherit;
-    width: inherit;
+    background:url("../images/tekken-hero-image-1.jpg") lightslategrey no-repeat center center;
+    height: 100%;
+    width: auto;
+    background-size: cover;
+}
+
+#hero-image img{
+    height: 100%;
+    width: auto;
 }
