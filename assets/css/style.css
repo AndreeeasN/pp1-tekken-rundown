@@ -28,14 +28,17 @@ h2{
 h3{
     font-size: 1.5rem;
 }
-/* header */
 
+/* header */
 header{
-    background-color: #B20204;
     display: block;
     z-index: +1;
     position: fixed;
     width: 100%;
+}
+
+#logo-container{
+    background: #b20204 url("../images/bg-color-header.png");
 }
 
 #main-logo{
@@ -100,9 +103,45 @@ nav a{
 #about-section{
     height: 600px;
     background:#262e41 url("../images/bg-color-1.png") repeat;
+    padding: 5%;
 }
 
 #about-title{
     text-align: center;
-    padding: 45px 0 25px;
+    padding: 15px 0 45px;   
+}
+
+/* container class*/
+.section-container{
+    background-color: rgba(0,0,0,0.25);
+    padding: 5%;
+    border-radius: 25px;
+}
+
+/* footer */
+footer{
+    background-color: #000;
+    padding: 15px;
+}
+
+footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer li{
+    
+    display: inline-block;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-right{
+    float: right;
 }
