@@ -99,7 +99,7 @@ nav a{
 /* index -> about section */
 #about-section{
     height: 600px;
-    background:#262e41;
+    background:#262e41 url("../images/bg-color-1.png") repeat;
 }
 
 #about-title{
