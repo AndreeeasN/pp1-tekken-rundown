@@ -105,12 +105,12 @@ nav a{
 }
 
 #hero-image-2{
-    background: url("../images/tekken-hero-image-2.jpg") #9d2f00 no-repeat center center ;
+    background: url("../images/tekken-hero-image-2.jpg") #bf4f03 no-repeat center center ;
     background-size: cover;
 }
 
 #hero-image-3{
-    background: url("../images/tekken-hero-image-3.jpg") #262e41 no-repeat center center ;
+    background: url("../images/tekken-hero-image-3.jpg") #6da7d9 no-repeat center center ;
     background-size: cover;
 }
 
@@ -229,7 +229,13 @@ nav a{
 /* games.html */
 /* mainline games section */
 #mainline-games-section{
-background-color:#9d2f00;
+background-color:#bf4f03;
+}
+
+/* spinoffs.html */
+/* spin-off games section */
+#spinoff-games-section{
+    background-color: #6da7d9;
 }
 
 /* footer */
