@@ -76,7 +76,7 @@ nav a{
 
 /* hero image */
 .hero-outer{
-    height: 550px;
+    height: 540px;
     width: 100%;
     padding-top: 190px;
     position: relative;
@@ -101,21 +101,21 @@ nav a{
 
 /* index -> about section */
 #about-section{
-    height: 600px;
+    height: auto;
     background:#262e41 url("../images/bg-color-1.png") repeat;
-    padding: 5%;
+    padding: 45px 5%;
 }
 
 #about-title{
     text-align: center;
-    padding: 15px 0 45px;   
+    margin: 0 0 45px;   
 }
 
 /* container class*/
 .section-container{
-    background-color: rgba(0,0,0,0.25);
-    padding: 5%;
-    border-radius: 25px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 45px 5%;
+    border-radius: 15px;
 }
 
 /* footer */
@@ -153,5 +153,5 @@ footer a{
 }
 
 footer a:hover{
-    color: #b20204;
+    color:deepskyblue;
 }
