@@ -111,6 +111,12 @@ nav a{
     margin: 0 0 45px;   
 }
 
+.video-container{
+    float: right;
+    margin: 0 45px;
+}
+
+
 /* container class*/
 .transparent-container{
     display: inline-block;
@@ -120,14 +126,28 @@ nav a{
 }
 
 .transparent-container p{
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+/* left and right-floated paragraphs */
+.paragraph-left{
+    float: left;
+}
+
+.paragraph-right{
+    float: right;
 }
 
 /* TEKKEN World Tour Promo section */
 #twt-promo{
+    display: grid;
     height: 800px;
     background-image: linear-gradient(rgb(38, 46, 65), rgb(178, 2, 4), rgb(38, 46, 65)) ;
-    
+}
+
+#twt-promo h1{
+    justify-content: center;
+    align-self: center;
 }
 
 /* footer */
