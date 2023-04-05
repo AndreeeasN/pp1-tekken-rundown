@@ -22,8 +22,12 @@ h1, h2, h3{
     letter-spacing: 2px;
 }
 
+h1{
+    font-size: 3rem;
+}
+
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 h3{
@@ -75,7 +79,7 @@ nav a{
     justify-content:space-evenly;
 }
 
-/* hero image */
+/* hero images */
 .hero-outer{
     height: 540px;
     width: 100%;
@@ -100,15 +104,54 @@ nav a{
     background-size: cover;
 }
 
-/* index -> about section */
+#hero-image-2{
+    background: url("../images/tekken-hero-image-2.jpg") #9d2f00 no-repeat center center ;
+    background-size: cover;
+}
+
+#hero-image-3{
+    background: url("../images/tekken-hero-image-3.jpg") #262e41 no-repeat center center ;
+    background-size: cover;
+}
+
+#hero-image-4{
+    background: url("../images/tekken-hero-image-4.jpg") #262e41 no-repeat center center ;
+    background-size: cover;
+}
+
+#hero-image-5{
+    background: url("../images/tekken-hero-image-5.jpg") #262e41 no-repeat center center ;
+    background-size: cover;
+}
+
+
+/* container classes*/
+.transparent-container{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    padding: 45px 10%;
+    border-radius: 15px;
+    margin: 45px 10%
+}
+
+.video-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* index.html */
+/* about section */
 #about-section{
     height: auto;
     background:#262e41 url("../images/bg-color-1.png") repeat;
-    padding: 45px 10%;
 }
 
 #about-section p{
-        margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 #about-title{
@@ -122,8 +165,6 @@ nav a{
     height: 0;
     overflow: hidden;
 }
-
-
 
 #left-about{
     box-sizing: border-box;
@@ -142,22 +183,6 @@ nav a{
 
 #about-section p{
     clear: both;
-}
-
-/* container classes*/
-.transparent-container{
-    display: inline-block;
-    background-color: rgba(0,0,0,0.5);
-    padding: 45px 10%;
-    border-radius: 15px;
-}
-
-.video-container iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /* TEKKEN World Tour Promo section */
@@ -201,6 +226,12 @@ nav a{
     padding: 10px;
 }
 
+/* games.html */
+/* mainline games section */
+#mainline-games-section{
+background-color:#9d2f00;
+}
+
 /* footer */
 footer{
     background-color: #000;
@@ -213,7 +244,6 @@ footer ul{
 }
 
 footer li{
-    
     display: inline-block;
 }
 
