@@ -105,7 +105,7 @@ nav a{
 }
 
 #hero-image-2{
-    background: url("../images/tekken-hero-image-2.jpg") #bf4f03 no-repeat center center ;
+    background: url("../images/tekken-hero-image-2.jpg") #e56b0a no-repeat center center ;
     background-size: cover;
 }
 
@@ -115,12 +115,12 @@ nav a{
 }
 
 #hero-image-4{
-    background: url("../images/tekken-hero-image-4.jpg") #262e41 no-repeat center center ;
+    background: url("../images/tekken-hero-image-4.jpg") #2f5969 no-repeat center center ;
     background-size: cover;
 }
 
 #hero-image-5{
-    background: url("../images/tekken-hero-image-5.jpg") #262e41 no-repeat center center ;
+    background: url("../images/tekken-hero-image-5.jpg") #365f33 no-repeat center center ;
     background-size: cover;
 }
 
@@ -147,7 +147,7 @@ nav a{
 /* about section */
 #about-section{
     height: auto;
-    background:#262e41 url("../images/bg-color-1.png") repeat;
+    background-color:#262e41;
 }
 
 #about-section p{
@@ -227,16 +227,29 @@ nav a{
 }
 
 /* games.html */
-/* mainline games section */
+/* mainline games main section */
 #mainline-games-section{
-background-color:#bf4f03;
+background-color:#e56b0a;
 }
 
 /* spinoffs.html */
-/* spin-off games section */
+/* spin-off games main section */
 #spinoff-games-section{
     background-color: #6da7d9;
 }
+
+/* beginners-guide.html */
+/* beginner's guide main section */
+#beginners-guide-section{
+    background-color: #2f5969;
+}
+
+/* sign-up.html */
+/* newsletter sign-up main section */
+#sign-up-section{
+    background-color: #365f33;
+}
+
 
 /* footer */
 footer{
