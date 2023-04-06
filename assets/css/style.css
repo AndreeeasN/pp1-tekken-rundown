@@ -8,7 +8,7 @@
     border:none;
 }
 
-/* default font */
+/* default fonts and text margins*/
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
@@ -24,6 +24,7 @@ h1, h2, h3{
 
 h1{
     font-size: 3rem;
+    margin: 45px 0 60px; 
 }
 
 h2{
@@ -32,6 +33,10 @@ h2{
 
 h3{
     font-size: 1.5rem;
+}
+
+p{
+    margin: 25px 0;
 }
 
 /* header */
@@ -67,6 +72,11 @@ nav a{
     text-decoration: none;
     margin: 0 15px;
     font-size: 1.5rem;
+}
+
+nav a:hover{
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
 }
 
 #nav-list{
@@ -131,7 +141,7 @@ nav a{
     background-color: rgba(0,0,0,0.5);
     padding: 45px 10%;
     border-radius: 15px;
-    margin: 45px 10%
+    margin: 45px 5%
 }
 
 .video-container iframe{
@@ -150,13 +160,8 @@ nav a{
     background-color:#262e41;
 }
 
-#about-section p{
-    margin-bottom: 35px;
-}
-
 #about-title{
-    text-align: center;
-    margin: 0 0 45px;   
+    text-align: center;  
 }
 
 #about-section .video-container{
