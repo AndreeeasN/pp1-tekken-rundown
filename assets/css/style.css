@@ -24,7 +24,8 @@ h1, h2, h3{
 
 h1{
     font-size: 3rem;
-    margin: 45px 0 60px; 
+    margin: 45px 0 60px;
+    text-align: center; 
 }
 
 h2{
@@ -104,11 +105,6 @@ nav a:hover{
     width: auto;
 }
 
-.hero-image img{
-    height: 100%;
-    width: auto;
-}
-
 #hero-image-1{
     background: url("../images/tekken-hero-image-1.jpg") #334a73 no-repeat center center ;
     background-size: cover;
@@ -130,7 +126,7 @@ nav a:hover{
 }
 
 #hero-image-5{
-    background: url("../images/tekken-hero-image-7.jpg") #5C4280 no-repeat center center ;
+    background: url("../images/tekken-hero-image-7.jpg") #5c3857 no-repeat center center ;
     background-size: cover;
 }
 
@@ -152,16 +148,23 @@ nav a:hover{
     height: 100%;
 }
 
+.left-div{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+
+.right-div{
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+}
 
 /* index.html */
 /* about section */
 #about-section{
     height: auto;
     background-color:#334a73;
-}
-
-#about-title{
-    text-align: center;  
 }
 
 #about-section .video-container{
@@ -171,19 +174,13 @@ nav a:hover{
     overflow: hidden;
 }
 
-#left-about{
-    box-sizing: border-box;
-    float: left;
-    width: 50%;
-    padding-right: 45px;
-}
-
-#right-about{
-    box-sizing: border-box;
-    float: right;
-    width: 50%;
+#about-section .right-div{
     margin: 0 0 45px 0;
     max-height: 350px;
+}
+
+#about-section .left-div{
+    padding-right: 45px;
 }
 
 #about-section p{
@@ -252,7 +249,7 @@ background-color:#5C4280;
 /* sign-up.html */
 /* newsletter sign-up main section */
 #sign-up-section{
-    background-color: #5C4280 ;
+    background-color: #5c3857 ;
 }
 
 
