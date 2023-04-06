@@ -110,12 +110,12 @@ nav a:hover{
 }
 
 #hero-image-1{
-    background: url("../images/tekken-hero-image-1.jpg") #262e41 no-repeat center center ;
+    background: url("../images/tekken-hero-image-1.jpg") #334a73 no-repeat center center ;
     background-size: cover;
 }
 
 #hero-image-2{
-    background: url("../images/tekken-hero-image-2.jpg") #e56b0a no-repeat center center ;
+    background: url("../images/tekken-hero-image-6.jpg") #5C4280 no-repeat center center ;
     background-size: cover;
 }
 
@@ -125,12 +125,12 @@ nav a:hover{
 }
 
 #hero-image-4{
-    background: url("../images/tekken-hero-image-4.jpg") #2f5969 no-repeat center center ;
+    background: url("../images/tekken-hero-image-4.jpg") #2F4858 no-repeat center center ;
     background-size: cover;
 }
 
 #hero-image-5{
-    background: url("../images/tekken-hero-image-5.jpg") #365f33 no-repeat center center ;
+    background: url("../images/tekken-hero-image-7.jpg") #5C4280 no-repeat center center ;
     background-size: cover;
 }
 
@@ -157,7 +157,7 @@ nav a:hover{
 /* about section */
 #about-section{
     height: auto;
-    background-color:#262e41;
+    background-color:#334a73;
 }
 
 #about-title{
@@ -193,7 +193,7 @@ nav a:hover{
 /* TEKKEN World Tour Promo section */
 #twt-promo{
     height: auto;
-    background-image: linear-gradient(rgb(38, 46, 65), rgb(178, 2, 4), rgb(38, 46, 65)) ;
+    background-image: linear-gradient(#334a73, rgb(178, 2, 4), #334a73) ;
     padding: 45px 10%;
 }
 
@@ -234,7 +234,7 @@ nav a:hover{
 /* games.html */
 /* mainline games main section */
 #mainline-games-section{
-background-color:#e56b0a;
+background-color:#5C4280;
 }
 
 /* spinoffs.html */
@@ -246,13 +246,13 @@ background-color:#e56b0a;
 /* beginners-guide.html */
 /* beginner's guide main section */
 #beginners-guide-section{
-    background-color: #2f5969;
+    background-color: #2F4858;
 }
 
 /* sign-up.html */
 /* newsletter sign-up main section */
 #sign-up-section{
-    background-color: #365f33;
+    background-color: #5C4280 ;
 }
 
 
