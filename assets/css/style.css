@@ -23,17 +23,20 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 45px 0 60px;
     text-align: center; 
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
+    text-align: center; 
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center; 
 }
 
 p{
@@ -137,7 +140,8 @@ nav a:hover{
     background-color: rgba(0,0,0,0.5);
     padding: 45px 10%;
     border-radius: 15px;
-    margin: 45px 5%
+    margin: 45px 5%;
+    border: 2px solid #000;
 }
 
 .video-container iframe{
@@ -232,6 +236,28 @@ nav a:hover{
 /* mainline games main section */
 #mainline-games-section{
 background-color:#5C4280;
+background-image: linear-gradient(#5C4280, #8b2729);
+}
+
+#mainline-games-section .transparent-container{
+    margin-bottom: 0;
+}
+
+#mainline-games-section p{
+    margin: 33% 0;
+}
+
+.game-logo-container{
+    padding: 15px;
+    overflow: hidden;
+}
+
+.game-logo-container img{
+    display: flex;
+    align-self: center;
+    margin: 10% 0;
+    height: 100%;
+    width: 100%;
 }
 
 /* spinoffs.html */
