@@ -72,7 +72,6 @@ header{
 }
 
 /* navigation bar */
-
 nav{
     width: 100%;
     background: #000;
@@ -141,7 +140,6 @@ nav a:hover{
     background: url("../images/tekken-hero-image-7.jpg") #5c3857 no-repeat center center ;
     background-size: cover;
 }
-
 
 /* container classes*/
 .transparent-container{
@@ -255,7 +253,11 @@ nav a:hover{
 }
 
 #twt-promo a{
-    color: #b20204;
+    color: #66C7FF;
+}
+
+#twt-promo a:hover{
+    color: #abe0ff;
 }
 
 /* games.html */
@@ -275,7 +277,6 @@ padding: 0 0 45px;
 #mainline-games-section p{
     margin: 25% 0;
 }
-
 
 /* spinoffs.html */
 /* spin-off games main section */
@@ -320,15 +321,12 @@ background-color: rgba(0, 0, 0, 0.25);
 padding: 10px 0 5px;
 text-align: center;
 }
-  
-
 
 /* sign-up.html */
 /* newsletter sign-up main section */
 #sign-up-section{
     background-color: #5c3857 ;
 }
-
 
 /* footer */
 footer{
@@ -364,5 +362,5 @@ footer a{
 }
 
 footer a:hover{
-    color:rgb(0, 162, 255);
+    color:#66C7FF;
 }
