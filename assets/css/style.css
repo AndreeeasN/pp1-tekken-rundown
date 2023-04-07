@@ -41,14 +41,21 @@ h3{
     text-align: center; 
 }
 
+/* paragraphs and linebreaks*/
+p{
+    margin: 25px 0;
+}
+
+br{
+    content: "";
+    display: block;
+    margin-bottom: 1.5em;
+}
+
 hr{
     border: none;
     border-top: 1px solid rgba(0,0,0,0.25);
     margin: 45px 0;
-}
-
-p{
-    margin: 25px 0;
 }
 
 /* header */
