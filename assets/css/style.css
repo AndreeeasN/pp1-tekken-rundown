@@ -20,6 +20,7 @@ h1, h2, h3{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
+    word-break: break-word;
 }
 
 h1{
@@ -40,6 +41,12 @@ h3{
     text-align: center; 
 }
 
+hr{
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.25);
+    margin: 45px 0;
+}
+
 p{
     margin: 25px 0;
 }
@@ -54,13 +61,14 @@ header{
 
 #logo-container{
     background: #b20204 url("../images/bg-color-header.png");
+    height: 140px;
 }
 
 #main-logo{
     display: block;
     padding: 10px 0 0;
     margin: 0 auto;
-    resize: none;
+    max-width: 100%;
 }
 
 /* navigation bar */
@@ -214,6 +222,7 @@ nav a:hover{
 #twt-logo{
     display: block;
     margin: 0 auto;
+    max-width: 100%;
 }
 
 #twt-promo .video-container{
@@ -291,18 +300,22 @@ padding: 0 0 45px;
     background-color: #2F4858;
 }
 
-#notation-table {
+.notation-table{
     margin: 45px auto;
     border-collapse: collapse;
-    width: 75%;
-  }
+    width: 80%;
+    max-width: 100%;
+}
   
-  #notation-table td {
-    border: 2px solid rgba(0,0,0,0.25);
-    padding: 15px;
-    text-align: center;
-  }
+.notation-table td{
+border: 2px solid rgba(0, 0, 0, 0.25);
+background-color: rgba(0, 0, 0, 0.25);
+padding: 10px 0 5px;
+text-align: center;
+}
   
+
+
 /* sign-up.html */
 /* newsletter sign-up main section */
 #sign-up-section{
