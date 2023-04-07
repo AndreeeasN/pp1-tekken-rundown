@@ -300,11 +300,18 @@ padding: 0 0 45px;
     background-color: #2F4858;
 }
 
+#beginners-guide-section .transparent-container{
+    padding: 45px 2.5%;
+}
+
+#beginners-guide-section p{
+    padding: 25px 10%;
+}
+
 .notation-table{
     margin: 45px auto;
     border-collapse: collapse;
-    width: 80%;
-    max-width: 100%;
+    width: 100%;
 }
   
 .notation-table td{
