@@ -214,7 +214,7 @@ nav a:hover{
 #twt-promo{
     height: auto;
     background-image: linear-gradient(#334a73, rgb(178, 2, 4) 40%, #334a73) ;
-    padding: 45px 10%;
+    padding: 45px 15%;
 }
 
 #twt-logo{
@@ -229,6 +229,7 @@ nav a:hover{
     height: 0;
     width: 100%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 #twt-promo iframe{
@@ -248,8 +249,7 @@ nav a:hover{
 }
 
 #twt-promo .transparent-container p{
-    margin: 10px 10px;
-    padding: 10px;
+    margin: 0 0 45px 0;
 }
 
 #twt-promo a{
