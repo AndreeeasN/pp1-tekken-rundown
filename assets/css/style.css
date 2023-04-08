@@ -241,6 +241,8 @@ nav a:hover{
     padding: 0;
     margin: 0;
     border: none;
+    max-height: 100%;
+    resize: none;
 }
 
 #twt-promo .transparent-container{
