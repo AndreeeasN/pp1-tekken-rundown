@@ -86,7 +86,6 @@ nav a{
     font-weight: 400;
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
     font-size: 1.5rem;
 }
 
@@ -424,4 +423,55 @@ footer a{
 
 footer a:hover{
     color:#66C7FF;
+}
+
+
+/* media queries */
+
+/* 320px and down */
+@media screen and (max-width: 1000px) {
+
+    /* all pages */
+    .transparent-container {
+        padding: 45px 5%;
+    }
+
+    .left-div{
+        margin: 0;
+        width: 100%;
+    }
+    
+    .right-div{
+        margin: 0;
+        width: 100%;
+    }
+    
+    /* index.html */
+    #twt-promo{
+        padding: 45px 5%;
+    }
+
+    /* games.html */
+    #mainline-games-section h2,h3{
+        margin: 2rem 0;
+    }
+
+    .game-logo-container{
+        padding: 0;
+    }
+
+    /* beginners-guide.html */
+    #beginners-guide-section h2,h3{
+        margin: 2rem 0;
+    }
+    
+    #beginners-guide-section .video-padding {
+        padding: 0;
+    }
+
+    /* sign-up.html */
+    #text-input {
+        margin: 15px 5%;
+        display: grid;
+    }
 }
