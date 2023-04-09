@@ -62,41 +62,47 @@
                     Don't miss out on any of the action and join our community of TEKKEN fans today!
                 </p>
 
+                <!-- Sign-up form -->
                 <div id="form-container">
                     <form action="https://formdump.codeinstitute.net/" method="post">
                         <fieldset>
+                            <h3>Sign-up for free!</h3>
+                            <br>
+                            <div id="text-input">
+                                <label for="name">Name: </label>
+                                <input type="text" id="name" name="name" placeholder="Preferred Name" required>
+                                <br>
+                                <label for="email">Email: </label>
+                                <input type="email" id="email" name="email" placeholder="E-mail Address" required>
+                                <br>
+                                <label for="country">Region: </label>
+                                <select id="region" name="region" required>
+                                    <option value="">--Please select a region--</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="usa">USA</option>
+                                    <option value="japan">Japan</option>
+                                    <option value="korea">Korea</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
                             
-                            <label for="name">Name: </label>
-                            <input type="text" id="name" name="name" required>
-                            <br>
-                            <label for="email">Email: </label>
-                            <input type="email" id="email" name="email" required>
-                            <br>
-                            <label for="country">Region: </label>
-                            <select id="region" name="region" required>
-                                <option value="">--Please select a region--</option>
-                                <option value="europe">Europe</option>
-                                <option value="usa">USA</option>
-                                <option value="japan">Japan</option>
-                                <option value="korea">Korea</option>
-                                <option value="other">Other</option>
-                            </select>
-                            <br>
-                            <p>Would you like news on any additional TEKKEN details?</p>
-                            <input type="checkbox" id="upcoming-releases" name="news-option">
-                            <label for="upcoming-releases">Upcoming Tekken DLC</label>
-                            <br>
-                            <input type="checkbox" id="world-tour" name="news-option">
-                            <label for="world-tour">Tekken World Tour</label>
-                            <br>
-                            <input type="checkbox" id="local-tournaments" name="news-option">
-                            <label for="local-tournaments">Nearby local tournaments</label>
-                            <br>
-                            <input type="checkbox" id="developer-commentary" name="news-option">
-                            <label for="developer-commentary">Developer commentary</label>
-                            <br>
+                            <p>Would you like any additional TEKKEN news?</p>
+                            <div id="checkbox-input">
+                                <input type="checkbox" id="upcoming-releases" name="news-option">
+                                <label for="upcoming-releases">Upcoming Tekken DLC</label>
+                                <br>
+                                <input type="checkbox" id="world-tour" name="news-option">
+                                <label for="world-tour">Tekken World Tour</label>
+                                <br>
+                                <input type="checkbox" id="local-tournaments" name="news-option">
+                                <label for="local-tournaments">Nearby local tournaments</label>
+                                <br>
+                                <input type="checkbox" id="developer-commentary" name="news-option">
+                                <label for="developer-commentary">Developer commentary</label>
+                                <br>
+                            </div>
+                            
                         </fieldset>
-                    
                         <button type="submit">Sign Up!</button>
                     </form>
                 </div>
