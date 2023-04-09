@@ -316,12 +316,24 @@ padding: 0 0 45px;
     margin: 45px 0;
 }
 
+#beginners-guide-section .video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+#beginners-guide-section .video-padding{
+    padding: 0 15%;
+}
+
+/* tables */
 .notation-table{
     margin: 45px auto;
     border-collapse: collapse;
     width: 100%;
 }
-  
+
 .notation-table td{
 border: 2px solid rgba(0, 0, 0, 0.25);
 background-color: rgba(0, 0, 0, 0.25);
