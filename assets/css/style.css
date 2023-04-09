@@ -131,7 +131,7 @@ nav a:hover{
 }
 
 #hero-image-3{
-    background: url("../images/tekken-hero-image-3.jpg") #6da7d9 no-repeat center center ;
+    background: url("../images/tekken-hero-image-3.jpg") #4d7eab no-repeat center center ;
     background-size: cover;
 }
 
@@ -283,8 +283,8 @@ padding: 0 0 45px;
 /* spinoffs.html */
 /* spin-off games main section */
 #spinoff-games-section{
-    background-color: #6da7d9;
-    background-image: linear-gradient(#6da7d9, #5C4280);
+    background-color: #4d7eab;
+    background-image: linear-gradient(#4d7eab, #5C4280);
     padding: 0 0 45px;
 }
 
@@ -302,7 +302,7 @@ padding: 0 0 45px;
 /* beginner's guide main section */
 #beginners-guide-section{
     background-color: #2F4858;
-    background-image: linear-gradient(#2F4858,#6da7d9);
+    background-image: linear-gradient(#2F4858,#4d7eab);
 }
 
 #beginners-guide-section .transparent-container{
