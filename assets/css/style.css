@@ -445,7 +445,7 @@ text-align: center;
     padding: 15px 2.5%;
 }
 
-#form-container  h3{
+#form-container h3{
     margin: 20px 0;
     letter-spacing: 3px;
 }
@@ -526,6 +526,18 @@ footer a:hover{
         content-visibility: visible;
     }
     /* all pages */
+    h1{
+        font-size: 2rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+    
+    h3{
+        font-size: 1.25rem;
+    }
+    
     .transparent-container {
         padding: 45px 5%;
     }
@@ -566,10 +578,21 @@ footer a:hover{
     #beginners-guide-section .video-padding {
         padding: 0;
     }
+}
+
+/* 500px and down */
+@media screen and (max-width: 500px) {
+
+    #about-section .video-padding {
+        padding: 0;
+    }
 
     /* sign-up.html */
     #text-input {
         margin: 15px 5%;
         display: grid;
     }
+
+    
 }
+
