@@ -42,7 +42,6 @@ h3{
 }
 
 /* paragraphs and linebreaks*/
-
 br{
     content: "";
     display: block;
@@ -66,6 +65,9 @@ header{
 #logo-container{
     background: #b20204 url("../images/bg-color-header.png");
     height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #main-logo{
@@ -109,7 +111,7 @@ nav a:hover{
 }
 
 /* mobile nav bar */
-/* code used from css-tricks.com, see README */
+/* code used is from css-tricks.com, see README */
 #menu-toggle {
     display: block;
     position: relative;
@@ -249,7 +251,8 @@ nav a:hover{
 
 .game-logo-container{
     padding: 15px;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
 
 .game-logo-container img{
@@ -257,6 +260,7 @@ nav a:hover{
     align-self: center;
     height: 100%;
     width: 100%;
+    max-width: fit-content;
 }
 
 .left-div{
@@ -477,7 +481,6 @@ text-align: center;
 footer{
     background-color: #000;
     padding: 1.5rem;
-    
 }
 
 footer ul{
@@ -496,9 +499,7 @@ footer a:hover{
     color:#66C7FF;
 }
 
-
 /* media queries */
-
 /* 1300px and down */
 @media screen and (max-width: 1300px) {
     
@@ -512,7 +513,6 @@ footer a:hover{
     #footer-links{
         margin: 15px 0 0;
     }
-    
 }
 
 /* 1000px and down */
@@ -540,6 +540,10 @@ footer a:hover{
         width: 100%;
     }
     
+    .game-logo-container{
+        padding: 0;
+    }
+
     /* index.html */
     #twt-promo{
         padding: 45px 5%;
@@ -548,10 +552,6 @@ footer a:hover{
     /* games.html */
     #mainline-games-section h2,h3{
         margin: 2rem 0;
-    }
-
-    .game-logo-container{
-        padding: 0;
     }
 
     /* beginners-guide.html */
