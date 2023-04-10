@@ -477,27 +477,13 @@ text-align: center;
 footer{
     background-color: #000;
     padding: 1.5rem;
+    
 }
 
 footer ul{
     list-style: none;
-    text-align: center;
-}
-
-footer li{
-    display: inline-block;
-}
-
-.footer-left{
-    float: left;
-}
-
-.footer-center{
-    text-align: center;
-}
-
-.footer-right{
-    float: right;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer a{
@@ -513,7 +499,23 @@ footer a:hover{
 
 /* media queries */
 
-/* 320px and down */
+/* 1300px and down */
+@media screen and (max-width: 1300px) {
+    
+    footer ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer-links{
+        margin: 15px 0 0;
+    }
+    
+    }
+
+/* 1000px and down */
 @media screen and (max-width: 1000px) {
 
     /* navigation */
