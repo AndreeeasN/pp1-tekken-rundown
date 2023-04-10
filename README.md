@@ -39,28 +39,33 @@ The user may also read through the Beginner's Guide for a push in the right dire
 - __About TEKKEN Page__
 
   - The About TEKKEN Page serves as a landing page for users, giving a quick summary of what the TEKKEN franchise is.
-  - The About section features a video trailer of TEKKEN 8, the newest installment in the series.
+  - The About section features a video trailer of TEKKEN 8, the newest installment in the series.<br>
   ![About Page](assets/images/documentation/about-page.png/)
-  - Further down on the page is a TEKKEN World Tour Promo, featuring the TWT 2022 logo as well as a trailer.
+  - Further down on the page is a TEKKEN World Tour Promo, featuring the TWT 2022 logo as well as a trailer.<br>
   ![TEKKEN World Tour Promo](assets/images/documentation/about-page-twt.png)
-  - The background color transitions from a calm blue to TEKKEN 7's signature red as it reaches the trailer.
   - The Promo also features a summary of the TEKKEN World Tour and a link leading to the official Bandai Namco E-sports portal.
 
 - __Mainline Games Page__
 
-  - The Mainline Games Page functions as a gallery showing off all the official TEKKEN game releases over the years.
+  - The Mainline Games Page functions as a gallery showing off all the official TEKKEN game releases over the years.<br>
+  ![Mainline Games Page](assets/images/documentation/mainline-games-page.png)<br>
+  - As the user scrolls through the gallery the background color will have a slight hue-shift towards blue (The same blue featured in the About TEKKEN Page)
   - Among the details listed are release date, platforms released on and what the game did differently from the other entries in the series.
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
+  
 
 - __Spin-off Games Page__
 
-  - A follow-up to the Mainline Games page, except featuring spin-off titles instead.
+  - A follow-up to the Mainline Games page, except featuring spin-off titles instead.<br>
+  ![Spinoff Games Page](assets/images/documentation/spinoff-games-page.png)
+  - As the user scrolls through the gallery the background color shift hues towards purple (The same purple used in the Mainline Games Page)
   - Release dates, platforms and official art are also displayed, similar to the Mainline Games Page
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
 
 - __Beginner's Guide Page__
 
-  - A fairly lenghty page to guide new players in the right direction should they find interest in playing.
+  - A fairly lenghty page to guide new players in the right direction should they find interest in playing.<br>
+  ![Beginner's Guide Page](assets/images/documentation/beginners-guide-page.png)
   - Features tables on input notations, basic movement and advanced directional inputs.
   - Also features some informational videos on choosing your character, TEKKEN movement techniques and general fighting game concepts.
 
