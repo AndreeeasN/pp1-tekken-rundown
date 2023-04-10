@@ -573,6 +573,12 @@ footer a:hover{
 /* 500px and down */
 @media screen and (max-width: 500px) {
 
+    /* all pages */ 
+    p{
+        word-break: break-word;
+    }
+
+    /* index.html */
     #about-section .video-padding {
         padding: 0;
     }
