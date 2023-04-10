@@ -116,7 +116,11 @@ nav a:hover{
 }
 
 /* mobile nav bar */
-/* code used is from css-tricks.com, see README */
+/*
+*   The code below is an edited chunk of code from css-tricks.com
+*   for further information, see README
+*/
+
 #menu-toggle {
     display: block;
     position: relative;
@@ -128,8 +132,9 @@ nav a:hover{
      -ms-user-select: none;
          user-select: none;
     content-visibility: hidden;
-  }
+}
   
+/* hides an invisible checkbox in front of icon*/
 #menu-toggle input{
     display: block;
     width: 30px;
@@ -160,13 +165,13 @@ nav a:hover{
 #menu-toggle label i{
     font-size: x-large;
 }
-  
-/* Changes the color of the hamburger when toggled */
+
+/* changes color of icon when checked */
 #menu-toggle input:checked + label i{
     color: #fff;
 }
-  
-/* Uses absolute positioning to place the menu off-screen */
+
+/* menu is placed outside of view */
 #menu{
     position: absolute;
     width: 100%;
@@ -180,7 +185,7 @@ nav a:hover{
     text-align: center;
 }
 
-/* moves menu onto screen when checked */
+/* moves onto screen when checked */
 #menu-toggle input:checked ~ ul {
     left: 0;
 }
@@ -305,6 +310,7 @@ nav a:hover{
     max-width: 100%;
 }
 
+/* video containers */
 #twt-promo .video-container{
     position: relative;
     padding-bottom: 56.25%;
@@ -336,6 +342,7 @@ nav a:hover{
     margin: 0 0 45px 0;
 }
 
+/* link to bandai namco signup portal */
 #twt-promo a{
     color: #66C7FF;
 }
