@@ -410,6 +410,7 @@ nav a:hover{
     margin: 45px auto;
     border-collapse: collapse;
     width: 100%;
+    word-break: break-word;
 }
 
 .notation-table td{
