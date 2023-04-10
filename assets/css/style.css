@@ -94,6 +94,10 @@ nav a:hover{
     text-underline-offset: 4px;
 }
 
+.nav-link{
+    content-visibility: visible;
+}
+
 #nav-list{
     padding: 15px 0;
     margin: inherit;
@@ -102,6 +106,86 @@ nav a:hover{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+}
+
+/* mobile nav bar */
+/* code used from css-tricks.com, see README */
+#menu-toggle {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: 50px;  
+    z-index: 1;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none;
+    content-visibility: hidden;
+  }
+  
+#menu-toggle input{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -7px;
+    left: -5px;  
+    padding: 0;
+    cursor: pointer;  
+    opacity: 0;
+    z-index: 2; 
+    -webkit-touch-callout: none;
+}
+  
+#menu-toggle label{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+#menu-toggle label span{
+    display: none;
+}
+
+#menu-toggle label div{
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;  
+    z-index: 1;  
+    -webkit-transform-origin: 4px 0px;  
+        -ms-transform-origin: 4px 0px;  
+            transform-origin: 4px 0px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+  
+/* Changes the color of the hamburger when toggled */
+#menu-toggle input:checked + label div{
+    background: #fff;
+}
+  
+/* Uses absolute positioning to place the menu off-screen */
+#menu{
+    position: absolute;
+    width: 100%;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    left: -200%;
+}
+
+/* moves menu onto screen when checked */
+#menu-toggle input:checked ~ ul {
+    left: 0;
 }
 
 /* hero images */
@@ -431,6 +515,13 @@ footer a:hover{
 /* 320px and down */
 @media screen and (max-width: 1000px) {
 
+    /* navigation */
+    #nav-list{
+        content-visibility: hidden;
+    }
+    #menu-toggle {
+        content-visibility: visible;
+    }
     /* all pages */
     .transparent-container {
         padding: 45px 5%;
