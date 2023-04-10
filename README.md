@@ -5,4 +5,4 @@ The user can scroll through a gallery of mainline TEKKEN games released over the
 The user may also read through the Beginner's Guide for a push in the right direction should they be willing to learn more about playing the game, as well as sign up for a newsletter regarding new TEKKEN releases, large tournament events and developer commentary.
 
 
-![Responsive Mockup]()
+<h2 align="center"><img src="assets/images/am-i-responsive.png"></h2>
