@@ -513,7 +513,7 @@ footer a:hover{
         margin: 15px 0 0;
     }
     
-    }
+}
 
 /* 1000px and down */
 @media screen and (max-width: 1000px) {
@@ -557,6 +557,10 @@ footer a:hover{
     /* beginners-guide.html */
     #beginners-guide-section h2,h3{
         margin: 2rem 0;
+    }
+
+    #about-section .video-padding{
+        padding: 0 7.5%;
     }
     
     #beginners-guide-section .video-padding {
