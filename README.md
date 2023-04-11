@@ -9,6 +9,8 @@ The user may also read through the Beginner's Guide for a push in the right dire
 # Table of Contents
 + [UX](#ux "UX")
   + [User Demographic](#user-demographic "User Demographic")
+  + [Design](#design "Design")
++ [Wireframes](#wireframes "Wireframes")
 + [Features](#features "Features")
   + [Navigation Bar](#navigation-bar "Navigation Bar")
   + [Hero Images](#hero-images "Hero Images")
@@ -18,7 +20,11 @@ The user may also read through the Beginner's Guide for a push in the right dire
   + [Beginner's Guide Page](#beginners-guide-page "Beginner's Guide Page")
   + [Newsletter Sign-Up Page](#newsletter-sign-up-page "Newsletter Sign-Up Page")
   + [Footer](#footer "Footer")
++ [Development and Deployment](#development-and-deployment "Development and Deployment")
+  + [Migrating to Visual Studio Code](#migrating-to-visual-studio-code "Migrating to Visual Studio Code")
+  + [GitHub Pages](#github-pages "GitHub Pages")
 + [Testing](#Testing "Testing")
+  + [Links](#links "Links")
   + [Validator Testing](#validator-testing "Validator Testing")
   + [Bugs Encountered](#bugs-encountered "Bugs Encountered")
 + [Media](#media "Media")
@@ -45,6 +51,7 @@ This website was designed for:
   ![Color Palette](assets/images/documentation/colorspace-gradients.png)
 
 ## Wireframes
+
   - About TEKKEN Page:<br> 
   ![About TEKKEN Page](assets/images/documentation/wireframe-index.png)
   - Mainline Games Page:<br> 
