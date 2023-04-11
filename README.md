@@ -10,6 +10,7 @@ The user may also read through the Beginner's Guide for a push in the right dire
 + [UX](#ux "UX")
   + [User Demographic](#user-demographic "User Demographic")
   + [Design](#design "Design")
+  + [Typography](#typography "Typography")
 + [Wireframes](#wireframes "Wireframes")
 + [Features](#features "Features")
   + [Navigation Bar](#navigation-bar "Navigation Bar")
@@ -49,6 +50,11 @@ This website was designed for:
   - The background color for each page is influenced by their hero image.<br>
     All varying degrees of blue but shifted towards other colors to match their respective hero image, adhering to a gradient generated using ColorSpace.<br>
   ![Color Palette](assets/images/documentation/colorspace-gradients.png)
+
+#### Typography
+
+  - Headers and navigation links were given the font [Open Sans](https://fonts.google.com/specimen/Open+Sans) as it closely resembles the font used in the TEKKEN 7 Main Menu, with a fallback of sans-serif.
+  - General text uses Segoe UI with a font-weight of 300.
 
 ## Wireframes
 
@@ -216,10 +222,11 @@ Images used:
   - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
   - Logos for mainline games 1-7 and icons for input notations are from the Gallery included in the official TEKKEN 7 release.
   - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
+  - The "Unofficial TEKKEN Rundown" logo was made using partial text from the TEKKEN 7 logo, incorporating the font [Tarrget](https://www.fontspace.com/tarrget-font-f32924).
 
 Videos used: 
   - [TEKKEN 8 Trailer](https://youtu.be/jGQBmSsunT4) & [TEKKEN World Tour 2022 trailer](https://youtu.be/_32qDPgfn6Y) from the official Bandai Namco Entertainment Youtube channels
-  - [The Korean Backdash](https://youtu.be/dzIfubaQLyk), [Why Button Mashing Doesn't Work](https://youtu.be/riGCdE6ZPck) and [Why Button Mashing Works (Sometimes)](https://youtu.be/b2wX4EiD5tg) are all from @Core-A Gaming on youtube.
+  - [The Korean Backdash](https://youtu.be/dzIfubaQLyk), [Why Button Mashing Doesn't Work](https://youtu.be/riGCdE6ZPck) and [Why Button Mashing Works (Sometimes)](https://youtu.be/b2wX4EiD5tg) are all made by [@Core-A Gaming](https://www.youtube.com/@CoreAGaming) on Youtube.
 
 ## Credits
 
