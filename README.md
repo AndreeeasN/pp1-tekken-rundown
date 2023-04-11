@@ -17,8 +17,12 @@ The user may also read through the Beginner's Guide for a push in the right dire
   + [Spin-off Games Page](#spin-off-games-page "Spin-off Games Page")
   + [Beginner's Guide Page](#beginners-guide-page "Beginner's Guide Page")
   + [Newsletter Sign-Up Page](#newsletter-sign-up-page "Newsletter Sign-Up Page")
+  + [Footer](#footer "Footer")
++ [Testing](#Testing "Testing")
+  + [Validator Testing](#validator-testing "Validator Testing")
+  + [Bugs Encountered](#bugs-encountered "Bugs Encountered")
++ [Media](#media "Media")
 + [Credits](#credits "Credits")
-
 
 ## UX
 
@@ -29,8 +33,6 @@ This website was designed for:
   - New players that have yet to begin playing due to the steep learning curve
   - Intermediate players wanting to brush up on their fighting game knowledge
   - Veteran players curious about the past entries of the series or receive news on upcoming content/events
-
-### 
 
 ## Features 
 
@@ -99,12 +101,48 @@ This website was designed for:
   - The user is prompted to enter name, e-mail and region and may then select from 4 additional mailing lists (Upcoming Tekken DLC, Tekken World Tour, Nearby local tournaments and Developer commentary)
   - NOTICE - As the Code Institute Formdump page has been down for the last few weeks, submitting the form will not work as of now.
   
-### The Footer
+### Footer
 
   - The footer is split into three parts: a disclaimer that TEKKEN belongs to Bandai Namco, the fact that this website was created as a portfolio project as well as links to the creator's LinkedIn and GitHub.<br>
    ![Footer](assets/images/documentation/footer.png)
   - The footer is entirely responsive and resizes well to smaller screens<br>
    ![Footer On Small Screens](assets/images/documentation/footer-mobile.png)
+
+## Testing
+
+### Validator Testing
+  - HTML
+    - No errors were returned when testing all the pages through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandreeeasn.github.io%2Fpp1-tekken-rundown%2Findex.html) <br>
+  ![W3C HTML Validator Results](assets/images/documentation/w3c-html-valid.png)
+  - CSS
+    - No errors were returned when testing style.css through the [W3C CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandreeeasn.github.io%2Fpp1-tekken-rundown%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)<br>
+    ![W3C CSS Validator Results](assets/images/documentation/w3c-css-valid.png)
+  - Lighthouse Audit<br>
+  ![Lighthouse Audit](assets/images/documentation/lighthouse-audit.png)
+
+### Bugs Encountered
+
+  - (RESOLVED) Right hand part of screen being cut off at lower screen widths on Beginner's Guide page
+    - The header above the notation tables were unable to resize and as such stuck out of the container, was fixed by adding style word-break: break-word; to the table.
+    - There was also the phrase "strengths/weaknesses" in a paragraph that counted as one very large word not allowing the container to resize properly at very small screen sizes, adding a space inbetween the words ("strengths / weaknesses") solved the issue
+  
+  - (RESOLVED) Inability to resize youtube videos in their video container
+    - Wrapped the video container in a new "video padding" div, allowing change of padding to control size when needed.
+
+  - (RESOLVED) GitHub and LinkedIn links in footer being pushed beneath the padding
+    - Replaced the convoluted floated divs in the footer with a simple unordered list with display:flex; to line the 3 objects up in a lot cleaner fashion.
+
+  
+## Media
+Images used:
+  - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
+  - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
+  - Logos for mainline games 1-7 and icons for input notations are from the Gallery included in the official TEKKEN 7 release.
+  - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
+
+Videos used: 
+  - [TEKKEN 8 Trailer](https://youtu.be/jGQBmSsunT4) & [TEKKEN World Tour 2022 trailer](https://youtu.be/_32qDPgfn6Y) from the official Bandai Namco Entertainment Youtube channels
+  - [The Korean Backdash](https://youtu.be/dzIfubaQLyk), [Why Button Mashing Doesn't Work](https://youtu.be/riGCdE6ZPck) and [Why Button Mashing Works (Sometimes)](https://youtu.be/b2wX4EiD5tg) are all from @Core-A Gaming on youtube.
 
 ## Credits
 
@@ -114,12 +152,6 @@ Resources and tutorials used for developing this project:
   - [webdevetc.com - How to add a gradient overlay to a background](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/)
   - [css-tricks.com - Three CSS Alternatives to JavaScript Navigation](https://css-tricks.com/three-css-alternatives-to-javascript-navigation/#aa-alternative-3-the-css-only-hamburger-menu)<br> 
   This project uses edited CSS code from this tutorial in particular (Alternative 3: The CSS-only hamburger menu, written by Blake Lundquist) to create a mobile navigation menu without having to resort to javascript.
+  - Most information regarding release dates, platforms and content from previous TEKKEN installments came from the [TEKKEN Wiki](https://tekken.fandom.com/wiki/Tekken_Wiki).
 
-Images and information used:
-  - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
-  - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
-  - Most if not all information regarding the previous TEKKEN games came from the [TEKKEN Wiki](https://tekken.fandom.com/wiki/Tekken_Wiki).
-  - Logos for mainline games 1-7 are from the Art Gallery included in the official release of TEKKEN 7.
-  - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
-
-Big thanks to my mentor, [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for helping push the project in the right direction.
+Big thanks to my Code Institute mentor, [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for helping push the project in the right direction.
