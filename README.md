@@ -32,7 +32,7 @@ This website was designed for:
   - Users interested in the background of the TEKKEN franchise wanting to know more
   - New players that have yet to begin playing due to the steep learning curve
   - Intermediate players wanting to brush up on their fighting game knowledge
-  - Veteran players curious about the past entries of the series or receive news on upcoming content/events
+  - Veteran players curious about the past entries of the series or wanting to receive news on upcoming content/events
 
 ### Design
 
