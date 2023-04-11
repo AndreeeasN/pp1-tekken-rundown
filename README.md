@@ -114,6 +114,7 @@ Each page has it's own hero image featuring the various stages present in TEKKEN
   ![About Page](assets/images/documentation/about-page.png/)
   - Further down on the page is a TEKKEN World Tour Promo, featuring the TWT 2022 logo as well as a trailer.<br>
   ![TEKKEN World Tour Promo](assets/images/documentation/about-page-twt.png)
+  - The background transitions from a calm blue to the signature TEKKEN red to bring the user's attention to the TWT Trailer.
   - The Promo also features a summary of the TEKKEN World Tour and a link leading to the official Bandai Namco E-sports portal.
 
 ### Mainline Games Page
@@ -131,7 +132,7 @@ Each page has it's own hero image featuring the various stages present in TEKKEN
   - A follow-up to the Mainline Games page, featuring spin-off titles instead.<br>
   ![Spin-off Games Page](assets/images/documentation/spinoff-games-page.png)<br>
   The image above showcases the top and bottom of the Spin-off Games Page.
-  - As the user scrolls through the gallery the background color shift hues towards purple (The same purple used in the Mainline Games Page)
+  - As the user scrolls through the gallery the background color shifts hue towards purple (The same purple used in the Mainline Games Page)
   - Release dates, platforms and official art are also displayed, similar to the Mainline Games Page
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
 
