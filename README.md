@@ -64,7 +64,7 @@ This website was designed for:
   - General text uses Segoe UI with a font-weight of 300.
 
 ## Wireframes
-
+The following wireframes were created using Balsamiq to visualise the final product:
   - About TEKKEN Page:<br> 
   ![About TEKKEN Page](assets/images/documentation/wireframe-index.png)
   - Mainline Games Page:<br> 
