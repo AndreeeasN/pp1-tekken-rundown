@@ -57,7 +57,7 @@ This website was designed for:
   - The background color for each page is influenced by their hero image.<br>
     All varying degrees of blue but shifted towards other colors to match their respective hero image, adhering to a gradient generated using ColorSpace.<br>
   ![Color Palette](assets/images/documentation/colorspace-gradients.png)
-
+  - Longer pages have a subtle gradient background, shifting the color as the user scrolls. This is to add a sense of depth and keep longer pages from feeling monotonous.
 #### Typography
 
   - Headers and navigation links were given the font [Open Sans](https://fonts.google.com/specimen/Open+Sans) as it closely resembles the font used in the TEKKEN 7 Main Menu, with a fallback of sans-serif.
