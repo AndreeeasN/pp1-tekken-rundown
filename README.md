@@ -47,21 +47,26 @@ This website was designed for:
 ## Wireframes
   - About TEKKEN Page:<br> 
   ![About TEKKEN Page](assets/images/documentation/wireframe-index.png)
-  - Mainlinge Games Page:<br> 
-  ![Mainlinge Games Page](assets/images/documentation/wireframe-games.png)
+  - Mainline Games Page:<br> 
+  ![Mainline Games Page](assets/images/documentation/wireframe-games.png)
   - Spin-off Games Page:<br> 
   ![Spin-off Games Page](assets/images/documentation/wireframe-spinoffs.png)
   - Beginner's Guide Page:<br> 
   ![Beginner's Guide](assets/images/documentation/wireframe-beginners-guide.png)
   - Newsletter Sign-Up Page:<br> 
   ![Newsletter Sign-Up Page](assets/images/documentation/wireframe-signup.png)<br>
-While taking a few artistic liberties, the finished product mirrors the original intent fairly well.
+While taking a few artistic liberties, the finished project mirrors the original intent fairly well.
 
 ## Features 
 
 ### Navigation Bar
 
-  - Featured on all pages, allows the user to navigate freely between the 5 pages available (About TEKKEN, Mainline games, Spin-offs, Beginner's Guide and Newsletter)
+  - Featured on all pages, allows the user to navigate freely between the 5 pages available:
+    - About TEKKEN
+    - Mainline games
+    - Spin-offs
+    - Beginner's Guide
+    - Newsletter
   - The current page is highlighted on the navigation bar to quickly allow the user to see what page they're on.
   - The navigation bar will remain static on top of the screen, allowing the user to reach it from anywhere on the page.<br>
     ![Nav Bar](assets/images/documentation/navbar.png)
@@ -70,7 +75,7 @@ While taking a few artistic liberties, the finished product mirrors the original
   ![Mobile Nav Bar Open](assets/images/documentation/navbar-mobile-open.png)
 
 ### Hero Images
-  - Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
+Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
   - About TEKKEN Page:
   ![About Tekken Hero Image](assets/images/tekken-hero-image-1.jpg)
   - Mainline games Page:
@@ -95,7 +100,7 @@ While taking a few artistic liberties, the finished product mirrors the original
 
   - The Mainline Games Page functions as a gallery showing off all the official TEKKEN game releases over the years.<br>
   ![Mainline Games Page](assets/images/documentation/mainline-games-page.png)<br>
-  The image above shows the top and bottom of the page.
+  The image above showcases the top and bottom of the Mainline Games Page.
   - As the user scrolls through the gallery the background color will have a slight hue-shift towards blue (The same blue featured in the About TEKKEN Page)
   - Among the details listed are release date, platforms released on and what the game did differently from the other entries in the series.
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
@@ -103,9 +108,9 @@ While taking a few artistic liberties, the finished product mirrors the original
 
 ### Spin-off Games Page
 
-  - A follow-up to the Mainline Games page, except featuring spin-off titles instead.<br>
-  ![Spinoff Games Page](assets/images/documentation/spinoff-games-page.png)<br>
-  The image above shows the top and bottom of the page.
+  - A follow-up to the Mainline Games page, featuring spin-off titles instead.<br>
+  ![Spin-off Games Page](assets/images/documentation/spinoff-games-page.png)<br>
+  The image above showcases the top and bottom of the Spin-off Games Page.
   - As the user scrolls through the gallery the background color shift hues towards purple (The same purple used in the Mainline Games Page)
   - Release dates, platforms and official art are also displayed, similar to the Mainline Games Page
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
@@ -121,7 +126,11 @@ While taking a few artistic liberties, the finished product mirrors the original
 
   - A sign-up form for the Unofficial TEKKEN Rundown Newsletter
   ![Newsletter Page](assets/images/documentation/newsletter-page.png)
-  - The user is prompted to enter name, e-mail and region and may then select from 4 additional mailing lists (Upcoming Tekken DLC, Tekken World Tour, Nearby local tournaments and Developer commentary)
+  - The user is prompted to enter name, e-mail and region and may then select from 4 additional mailing lists:
+    - Upcoming Tekken DLC
+    - Tekken World Tour
+    - Nearby local tournaments
+    - Developer commentary
   - NOTICE - As the Code Institute Formdump page has been down for the last few weeks, submitting the form will not work as of now.
   
 ### Footer
@@ -130,14 +139,16 @@ While taking a few artistic liberties, the finished product mirrors the original
     - Disclaimer that TEKKEN belongs to Bandai Namco
     - Statement that this website was created as a portfolio project
     - Links to the creator's LinkedIn and GitHub<br>
+   
    ![Footer](assets/images/documentation/footer.png)
   - The footer is entirely responsive and resizes well to smaller screens<br>
+   
    ![Footer On Small Screens](assets/images/documentation/footer-mobile.png)
 
 ## Development and Deployment
 
 ### Migrating to Visual Studio Code
-While GitPod was originally used, Visual Studio Code was instead chosen as the primary development environment for this project as Code Institute is moving away from using GitPod. <br>
+While GitPod was originally chosen, Visual Studio Code was instead used as the primary development environment for this project as Code Institute has begun moving away from using GitPod. <br>
 The GitPod environment was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template), and later adopted into Visual Studio using the following steps:
 
   1. Open Visual Studio Code
