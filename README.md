@@ -115,7 +115,7 @@ This website was designed for:
 ## Development and Deployment
 
 While GitPod was originally used, Visual Studio Code was instead chosen as the primary development environment for this project. <br>
-The reason behind this being that Code Institute are moving away from GitPod and the time required to get accustomed to a new environment while simultaneously working on the project was insufficient. <br>
+The reason behind this being that Code Institute is moving away from GitPod and the time required to get accustomed to a new environment while simultaneously working on this project was insufficient. <br>
 To maintain proper management of the development and version control, frequent commits and pushes to GitHub were carried out.
 
 ### GitHub Pages
