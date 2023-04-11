@@ -17,7 +17,7 @@ The user may also read through the Beginner's Guide for a push in the right dire
   + [Spin-off Games Page](#spin-off-games-page "Spin-off Games Page")
   + [Beginner's Guide Page](#beginners-guide-page "Beginner's Guide Page")
   + [Newsletter Sign-Up Page](#newsletter-sign-up-page "Newsletter Sign-Up Page")
-  
++ [Credits](#credits "Credits")
 
 
 ## UX
@@ -30,7 +30,7 @@ This website was designed for:
   - Intermediate players wanting to brush up on their fighting game knowledge
   - Veteran players curious about the past entries of the series or receive news on upcoming content/events
 
-###
+### 
 
 ## Features 
 
@@ -105,3 +105,21 @@ This website was designed for:
    ![Footer](assets/images/documentation/footer.png)
   - The footer is entirely responsive and resizes well to smaller screens<br>
    ![Footer On Small Screens](assets/images/documentation/footer-mobile.png)
+
+## Credits
+
+Resources and tutorials used for developing this project:
+  - [w3cschools.com - How to Create a Sticky Navbar](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+  - [w3cschools.com - HTML Tables](https://www.w3schools.com/html/html_tables.asp)
+  - [webdevetc.com - How to add a gradient overlay to a background](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/)
+  - [css-tricks.com - Three CSS Alternatives to JavaScript Navigation](https://css-tricks.com/three-css-alternatives-to-javascript-navigation/#aa-alternative-3-the-css-only-hamburger-menu)<br> 
+  This project uses edited CSS code from this tutorial in particular (Alternative 3: The CSS-only hamburger menu, written by Blake Lundquist) to create a mobile navigation menu without having to resort to javascript.
+
+Images and information used:
+  - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
+  - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
+  - Most if not all information regarding the previous TEKKEN games came from the [TEKKEN Wiki](https://tekken.fandom.com/wiki/Tekken_Wiki).
+  - Logos for mainline games 1-7 are from the Art Gallery included in the official release of TEKKEN 7.
+  - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
+
+Big thanks to my mentor, [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for helping push the project in the right direction.
