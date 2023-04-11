@@ -6,21 +6,45 @@ The user may also read through the Beginner's Guide for a push in the right dire
 
 ![Responsive Mockup](assets/images/documentation/am-i-responsive.png)
 
+# Table of Contents
++ [UX](#ux "UX")
+  + [User Demographic](#user-demographic "User Demographic")
++ [Features](#features "Features")
+  + [Navigation Bar](#navigation-bar "Navigation Bar")
+  + [Hero Images](#hero-images "Hero Images")
+  + [About TEKKEN Page](#about-tekken-page "About TEKKEN Page")
+  + [Mainline Games Page](#mainline-games-page "Mainline Games Page")
+  + [Spin-off Games Page](#spin-off-games-page "Spin-off Games Page")
+  + [Beginner's Guide Page](#beginners-guide-page "Beginner's Guide Page")
+  + [Newsletter Sign-Up Page](#newsletter-sign-up-page "Newsletter Sign-Up Page")
+  
+
+
+## UX
+
+### User Demographic
+
+This website was designed for:
+  - Users interested in the background of the TEKKEN franchise wanting to know more
+  - New players that have yet to begin playing due to the steep learning curve
+  - Intermediate players wanting to brush up on their fighting game knowledge
+  - Veteran players curious about the past entries of the series or receive news on upcoming content/events
+
+###
+
 ## Features 
 
-### Existing Features
-
-- __Navigation Bar__
+### Navigation Bar
 
   - Featured on all pages, allows the user to navigate freely between the 5 pages available (About TEKKEN, Mainline games, Spin-offs, Beginner's Guide and Newsletter)
   - The current page is highlighted on the navigation bar to quickly allow the user to see what page they're on.
   - The navigation bar will remain static on top of the screen, allowing the user to reach it from anywhere on the page.<br>
     ![Nav Bar](assets/images/documentation/navbar.png)
   - On smaller screens the navigation links will be replaced with a menu button that opens a vertical navigation menu.<br>
-  -![Mobile Nav Bar Closed](assets/images/documentation/navbar-mobile-closed.png)<br>
+  ![Mobile Nav Bar Closed](assets/images/documentation/navbar-mobile-closed.png)<br>
   ![Mobile Nav Bar Open](assets/images/documentation/navbar-mobile-open.png)
 
-- __Hero Images__
+### Hero Images
 
     - Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
     The background color for each page is also influenced by the hero image, all mostly similar shades of desaturated blue but shifted towards other colors match their respective hero image.
@@ -35,8 +59,7 @@ The user may also read through the Beginner's Guide for a push in the right dire
         - Newsletter Page:
         ![Newsletter Hero Image](assets/images/tekken-hero-image-5.jpg)
 
-
-- __About TEKKEN Page__
+### About TEKKEN Page
 
   - The About TEKKEN Page serves as a landing page for users, giving a quick summary of what the TEKKEN franchise is.
   - The About section features a video trailer of TEKKEN 8, the newest installment in the series.<br>
@@ -45,7 +68,7 @@ The user may also read through the Beginner's Guide for a push in the right dire
   ![TEKKEN World Tour Promo](assets/images/documentation/about-page-twt.png)
   - The Promo also features a summary of the TEKKEN World Tour and a link leading to the official Bandai Namco E-sports portal.
 
-- __Mainline Games Page__
+### Mainline Games Page
 
   - The Mainline Games Page functions as a gallery showing off all the official TEKKEN game releases over the years.<br>
   ![Mainline Games Page](assets/images/documentation/mainline-games-page.png)<br>
@@ -54,7 +77,7 @@ The user may also read through the Beginner's Guide for a push in the right dire
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
   
 
-- __Spin-off Games Page__
+### Spin-off Games Page
 
   - A follow-up to the Mainline Games page, except featuring spin-off titles instead.<br>
   ![Spinoff Games Page](assets/images/documentation/spinoff-games-page.png)
@@ -62,24 +85,23 @@ The user may also read through the Beginner's Guide for a push in the right dire
   - Release dates, platforms and official art are also displayed, similar to the Mainline Games Page
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
 
-- __Beginner's Guide Page__
+### Beginner's Guide Page
 
   - A fairly lenghty page to guide new players in the right direction should they find interest in playing.<br>
   ![Beginner's Guide Page](assets/images/documentation/beginners-guide-page.png)
   - Features tables on input notations, basic movement and advanced directional inputs.
   - Also features some informational videos on choosing your character, TEKKEN movement techniques and general fighting game concepts.
 
-- __Newsletter Sign-Up Page__
+### Newsletter Sign-Up Page
 
   - A sign-up form for the Unofficial TEKKEN Rundown Newsletter
   ![Newsletter Page](assets/images/documentation/newsletter-page.png)
   - The user is prompted to enter name, e-mail and region and may then select from 4 additional mailing lists (Upcoming Tekken DLC, Tekken World Tour, Nearby local tournaments and Developer commentary)
   - NOTICE - As the Code Institute Formdump page has been down for the last few weeks, submitting the form will not work as of now.
   
-- __The Footer__ 
+### The Footer
 
   - The footer is split into three parts: a disclaimer that TEKKEN belongs to Bandai Namco, the fact that this website was created as a portfolio project as well as links to the creator's LinkedIn and GitHub.<br>
    ![Footer](assets/images/documentation/footer.png)
   - The footer is entirely responsive and resizes well to smaller screens<br>
    ![Footer On Small Screens](assets/images/documentation/footer-mobile.png)
-
