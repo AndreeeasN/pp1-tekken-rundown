@@ -79,6 +79,7 @@ header{
 
 /* navigation bar */
 nav{
+    height: 63px;
     width: 100%;
     background: #000;
 }
@@ -99,10 +100,6 @@ nav a:hover{
 .active{
     text-decoration: underline 1px;
     text-underline-offset: 5px;
-}
-
-.nav-link{
-    content-visibility: visible;
 }
 
 #nav-list{
@@ -129,9 +126,9 @@ nav a:hover{
     z-index: 1;  
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
-    content-visibility: hidden;
+    -ms-user-select: none;
+    user-select: none;
+    display: none;
 }
   
 /* hides an invisible checkbox in front of icon*/
@@ -527,10 +524,10 @@ footer a:hover{
 
     /* navigation */
     #nav-list{
-        content-visibility: hidden;
+        display: none;
     }
     #menu-toggle {
-        content-visibility: visible;
+        display: block;
     }
     /* all pages */
     h1{
