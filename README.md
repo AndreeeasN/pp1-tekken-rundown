@@ -58,6 +58,10 @@ This website was designed for:
     All varying degrees of blue but shifted towards other colors to match their respective hero image, adhering to a gradient generated using ColorSpace.<br>
   ![Color Palette](assets/images/documentation/colorspace-gradients.png)
   - Longer pages have a subtle gradient background, shifting the color as the user scrolls. This is to add a sense of depth and keep longer pages from feeling monotonous.
+  - A dark transparent container is used underneath every instance of white text to ensure proper contrast.<br>
+  ![Contrast Check](assets/images/documentation/contrast-check.png)<br>
+The background of every text container passes the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
+
 #### Typography
 
   - Headers and navigation links were given the font [Open Sans](https://fonts.google.com/specimen/Open+Sans) as it closely resembles the font used in the TEKKEN 7 Main Menu, with a fallback of sans-serif.
@@ -205,6 +209,8 @@ If the link doesn't appear after refreshing your page, wait for a few minutes be
     ![W3C CSS Validator Results](assets/images/documentation/w3c-css-valid.png)
   - Lighthouse Audit<br>
   ![Lighthouse Audit](assets/images/documentation/lighthouse-audit.png)
+
+To ensure good performance on loading, all images were ran through TinyPNG to save on resources.
 
 ### Bugs Encountered
   - (RESOLVED) The navigation bar menu button not hiding on larger screens when using firefox
