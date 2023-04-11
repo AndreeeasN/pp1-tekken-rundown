@@ -124,6 +124,9 @@ This website was designed for:
 
 ### Bugs Encountered
 
+  - (RESOLVED) The navigation bar menu button not hiding on larger screens when using firefox
+    - The CSS tag content-visibility lacks browser compatability with firefox and safari. Hiding elements with the simpler display: none; fixed the issue.
+  
   - (RESOLVED) Right hand part of screen being cut off at lower screen widths on Beginner's Guide page
     - The headers above the notation tables were unable to break to a new line and as such stuck out of the container, this was fixed by adding style word-break: break-word; to the table.
     - There was also the phrase "strengths/weaknesses" in a paragraph that counted as one very large word not allowing the container to resize properly at very small screen sizes, adding a space inbetween the words ("strengths / weaknesses") solved the issue
@@ -133,9 +136,12 @@ This website was designed for:
 
   - (RESOLVED) GitHub and LinkedIn links in footer being pushed beneath the padding
     - Replaced the convoluted floated divs in the footer with a simple unordered list with display:flex; to line the 3 objects up in a lot cleaner fashion.
-
   
 ## Media
+Fonts Used:
+  - [Tarrget - by Iconian Fonts](https://www.fontspace.com/tarrget-font-f32924), used in the creation of the Unofficial TEKKEN Rundown logo, based on the TEKKEN Tag Tournament logo font. 
+  - [Open Sans](https://fonts.google.com/specimen/Open+Sans) used for headers, closely resembles the font used in the TEKKEN 7 Main Menu.
+  
 Images used:
   - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
   - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
