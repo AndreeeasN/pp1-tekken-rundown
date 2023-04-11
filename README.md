@@ -74,6 +74,7 @@ This website was designed for:
 
   - The Mainline Games Page functions as a gallery showing off all the official TEKKEN game releases over the years.<br>
   ![Mainline Games Page](assets/images/documentation/mainline-games-page.png)<br>
+  The image above shows the top and bottom of the page.
   - As the user scrolls through the gallery the background color will have a slight hue-shift towards blue (The same blue featured in the About TEKKEN Page)
   - Among the details listed are release date, platforms released on and what the game did differently from the other entries in the series.
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
@@ -82,7 +83,8 @@ This website was designed for:
 ### Spin-off Games Page
 
   - A follow-up to the Mainline Games page, except featuring spin-off titles instead.<br>
-  ![Spinoff Games Page](assets/images/documentation/spinoff-games-page.png)
+  ![Spinoff Games Page](assets/images/documentation/spinoff-games-page.png)<br>
+  The image above shows the top and bottom of the page.
   - As the user scrolls through the gallery the background color shift hues towards purple (The same purple used in the Mainline Games Page)
   - Release dates, platforms and official art are also displayed, similar to the Mainline Games Page
   - Every game also features it's official logo on the left/right, each entry alternating which side displays the art.
@@ -123,7 +125,7 @@ This website was designed for:
 ### Bugs Encountered
 
   - (RESOLVED) Right hand part of screen being cut off at lower screen widths on Beginner's Guide page
-    - The header above the notation tables were unable to resize and as such stuck out of the container, was fixed by adding style word-break: break-word; to the table.
+    - The headers above the notation tables were unable to break to a new line and as such stuck out of the container, this was fixed by adding style word-break: break-word; to the table.
     - There was also the phrase "strengths/weaknesses" in a paragraph that counted as one very large word not allowing the container to resize properly at very small screen sizes, adding a space inbetween the words ("strengths / weaknesses") solved the issue
   
   - (RESOLVED) Inability to resize youtube videos in their video container
