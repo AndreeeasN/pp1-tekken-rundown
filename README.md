@@ -104,10 +104,30 @@ This website was designed for:
   
 ### Footer
 
-  - The footer is split into three parts: a disclaimer that TEKKEN belongs to Bandai Namco, the fact that this website was created as a portfolio project as well as links to the creator's LinkedIn and GitHub.<br>
+  - The footer is split into three parts: 
+    - Disclaimer that TEKKEN belongs to Bandai Namco
+    - Statement that this website was created as a portfolio project
+    - Links to the creator's LinkedIn and GitHub<br>
    ![Footer](assets/images/documentation/footer.png)
   - The footer is entirely responsive and resizes well to smaller screens<br>
    ![Footer On Small Screens](assets/images/documentation/footer-mobile.png)
+
+## Development and Deployment
+
+While GitPod was originally used, Visual Studio Code was instead chosen as the primary development environment for this project. <br>
+The reason behind this being that Code Institute are moving away from GitPod and the time required to get accustomed to a new environment while simultaneously working on the project was insufficient. <br>
+To maintain proper management of the development and version control, frequent commits and pushes to GitHub were carried out.
+
+### GitHub Pages
+The project was deployed to GitHub Pages (Link [here](https://andreeeasn.github.io/pp1-tekken-rundown/)) using the following steps:
+  1. Log in to GitHub and locate your project repository
+  2. At the top of the repository, select the "Settings" option from the menu
+  3. Find the "Pages" option in the list of settings
+  4. Find the "Branch" option and select your desired branch ("None" by default, set to "Main") and root ("/(root)" by default)
+  5. Select "Save" and your page will be deployed to GitHub Pages
+  6. Refresh the page and you should be presented with "Your site is live at: (LINK)" at the top of the page
+
+If the link doesn't appear after refreshing your page, wait for a few minutes before trying again
 
 ## Testing
 
@@ -138,12 +158,13 @@ This website was designed for:
 ## Media
 Fonts Used:
   - [Tarrget - by Iconian Fonts](https://www.fontspace.com/tarrget-font-f32924), used in the creation of the Unofficial TEKKEN Rundown logo, based on the TEKKEN Tag Tournament logo font. 
-  - [Open Sans](https://fonts.google.com/specimen/Open+Sans) used for headers, closely resembles the font used in the TEKKEN 7 Main Menu.
+  - [Open Sans](https://fonts.google.com/specimen/Open+Sans), used for headers, closely resembles the font used in the TEKKEN 7 Main Menu.
   
 Images used:
   - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
   - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
   - Logos for mainline games 1-7 and icons for input notations are from the Gallery included in the official TEKKEN 7 release.
+  - The TEKKEN Rundown logo was created using the TEKKEN 
   - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
 
 Videos used: 
