@@ -36,16 +36,23 @@ The user may also read through the Beginner's Guide for a push in the right dire
 ### User Demographic
 
 This website was designed for:
-  - Users interested in the background of the TEKKEN franchise wanting to know more
-  - New players that have yet to begin playing due to the steep learning curve
-  - Intermediate players wanting to brush up on their fighting game knowledge
-  - Veteran players curious about the past entries of the series or wanting to receive news on upcoming content/events
+  - Brand new TEKKEN players
+    - To provide insight into the world of TEKKEN and what it has to offer
+    - To help alleviate the steep learning curve of picking up a fighting game for the first time
+    - To garner interest in the community and the major events worth watching
+  - Intermediate TEKKEN Players
+    - To stay up-to-date on current TEKKEN releases
+    - To provide for those wanting to brush up on their fighting game skills
+    - To explore the lesser known parts of the franchise
+  - Veteran TEKKEN players
+    - To provide a window into the past 27 years worth of history on the games they've grown to love
+    - To encourage them to sign up for local/major tournaments and partake in the community
 
 ### Design
 
 #### Color Palette
 
-  - The header background is the #bc0e0e, a shade of red inspired by the TEKKEN 7 Cover Art.<br>
+  - The header background is #bc0e0e, a shade of red inspired by the TEKKEN 7 Cover Art.<br>
     ![TEKKEN 7 Cover Art](assets/images/documentation/tekken-7-cover.png)<br>
   - The background color for each page is influenced by their hero image.<br>
     All varying degrees of blue but shifted towards other colors to match their respective hero image, adhering to a gradient generated using ColorSpace.<br>
