@@ -47,19 +47,18 @@ This website was designed for:
   ![Mobile Nav Bar Open](assets/images/documentation/navbar-mobile-open.png)
 
 ### Hero Images
-
-    - Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
-    The background color for each page is also influenced by the hero image, all mostly similar shades of desaturated blue but shifted towards other colors match their respective hero image.
-        - About TEKKEN Page:
-        ![About Tekken Hero Image](assets/images/tekken-hero-image-1.jpg)
-        - Mainline games Page:
-        ![Mainline games Hero Image](assets/images/tekken-hero-image-2.jpg)
-        - Spinoff games Page:
-        ![Spinoff games Hero Image](assets/images/tekken-hero-image-3.jpg)
-        - Beginner's Guide Page:
-        ![Beginner's Guide Hero Image](assets/images/tekken-hero-image-4.jpg)
-        - Newsletter Page:
-        ![Newsletter Hero Image](assets/images/tekken-hero-image-5.jpg)
+  - Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
+  - The background color for each page is also influenced by the hero image, all mostly similar shades of desaturated blue but shifted towards other colors match their respective hero image.
+  - About TEKKEN Page:
+  ![About Tekken Hero Image](assets/images/tekken-hero-image-1.jpg)
+  - Mainline games Page:
+  ![Mainline games Hero Image](assets/images/tekken-hero-image-2.jpg)
+  - Spinoff games Page:
+  ![Spinoff games Hero Image](assets/images/tekken-hero-image-3.jpg)
+  - Beginner's Guide Page:
+  ![Beginner's Guide Hero Image](assets/images/tekken-hero-image-4.jpg)
+  - Newsletter Page:
+  ![Newsletter Hero Image](assets/images/tekken-hero-image-5.jpg)
 
 ### About TEKKEN Page
 
@@ -123,9 +122,8 @@ This website was designed for:
   ![Lighthouse Audit](assets/images/documentation/lighthouse-audit.png)
 
 ### Bugs Encountered
-
   - (RESOLVED) The navigation bar menu button not hiding on larger screens when using firefox
-    - The CSS tag content-visibility lacks browser compatability with firefox and safari. Hiding elements with the simpler display: none; fixed the issue.
+    - The CSS tag content-visibility lacks browser compatibility with firefox and safari. Hiding elements with the simpler display: none; fixed the issue.
   
   - (RESOLVED) Right hand part of screen being cut off at lower screen widths on Beginner's Guide page
     - The headers above the notation tables were unable to break to a new line and as such stuck out of the container, this was fixed by adding style word-break: break-word; to the table.
