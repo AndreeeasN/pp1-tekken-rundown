@@ -210,7 +210,7 @@ If the link doesn't appear after refreshing your page, wait for a few minutes be
   - Lighthouse Audit<br>
   ![Lighthouse Audit](assets/images/documentation/lighthouse-audit.png)
 
-To ensure good performance on loading, all images were ran through TinyPNG to save on resources.
+To ensure good performance on loading, all images were run through [TinyPNG](https://tinypng.com/) to save on resources.
 
 ### Bugs Encountered
   - (RESOLVED) The navigation bar menu button not hiding on larger screens when using firefox
