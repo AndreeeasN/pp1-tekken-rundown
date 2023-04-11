@@ -63,7 +63,7 @@ header{
 }
 
 #logo-container{
-    background: #b20204 url("../images/bg-color-header.png");
+    background: #bc0e0e url("../images/bg-color-header.png");
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -194,6 +194,7 @@ nav a:hover{
     padding-top: 190px;
     position: relative;
     overflow: hidden;
+    background-color: #000;
 }
 
 .hero-image{
@@ -297,7 +298,7 @@ nav a:hover{
 /* TEKKEN World Tour Promo section */
 #twt-promo{
     height: auto;
-    background-image: linear-gradient(#334a73, #b20204 40%, #334a73) ;
+    background-image: linear-gradient(#334a73, #bc0e0e 40%, #334a73) ;
     padding: 45px 15%;
 }
 

@@ -34,6 +34,29 @@ This website was designed for:
   - Intermediate players wanting to brush up on their fighting game knowledge
   - Veteran players curious about the past entries of the series or receive news on upcoming content/events
 
+### Design
+
+#### Color Palette
+
+  - The header background is the #bc0e0e, a shade of red inspired by the TEKKEN 7 Cover Art.<br>
+    ![TEKKEN 7 Cover Art](assets/images/documentation/tekken-7-cover.png)<br>
+  - The background color for each page is influenced by their hero image.<br>
+    All varying degrees of blue but shifted towards other colors to match their respective hero image, adhering to a gradient generated using ColorSpace.<br>
+  ![Color Palette](assets/images/documentation/colorspace-gradients.png)
+
+## Wireframes
+  - About TEKKEN Page:<br> 
+  ![About TEKKEN Page](assets/images/documentation/wireframe-index.png)
+  - Mainlinge Games Page:<br> 
+  ![Mainlinge Games Page](assets/images/documentation/wireframe-games.png)
+  - Spin-off Games Page:<br> 
+  ![Spin-off Games Page](assets/images/documentation/wireframe-spinoffs.png)
+  - Beginner's Guide Page:<br> 
+  ![Beginner's Guide](assets/images/documentation/wireframe-beginners-guide.png)
+  - Newsletter Sign-Up Page:<br> 
+  ![Newsletter Sign-Up Page](assets/images/documentation/wireframe-signup.png)<br>
+While taking a few artistic liberties, the finished product mirrors the original intent fairly well.
+
 ## Features 
 
 ### Navigation Bar
@@ -48,7 +71,6 @@ This website was designed for:
 
 ### Hero Images
   - Each page has it's own hero image featuring the various stages present in TEKKEN 7. 
-  - The background color for each page is also influenced by the hero image, all mostly similar shades of desaturated blue but shifted towards other colors match their respective hero image.
   - About TEKKEN Page:
   ![About Tekken Hero Image](assets/images/tekken-hero-image-1.jpg)
   - Mainline games Page:
@@ -114,9 +136,15 @@ This website was designed for:
 
 ## Development and Deployment
 
-While GitPod was originally used, Visual Studio Code was instead chosen as the primary development environment for this project. <br>
-The reason behind this being that Code Institute is moving away from GitPod and the time required to get accustomed to a new environment while simultaneously working on this project was insufficient. <br>
-To maintain proper management of the development and version control, frequent commits and pushes to GitHub were carried out.
+### Migrating to Visual Studio Code
+While GitPod was originally used, Visual Studio Code was instead chosen as the primary development environment for this project as Code Institute is moving away from using GitPod. <br>
+The GitPod environment was built using the [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template), and later adopted into Visual Studio using the following steps:
+
+  1. Open Visual Studio Code
+  2. Select "Clone Git Repository"
+  3. Enter the URL of your project repository and click "Clone Repository"
+  4. When prompted, select a directory to place your project in and then "Select as Repository Destination"
+  5. You may now open the project by selecting "Open Folder" and selecting your chosen directory
 
 ### GitHub Pages
 The project was deployed to GitHub Pages (Link [here](https://andreeeasn.github.io/pp1-tekken-rundown/)) using the following steps:
@@ -130,6 +158,11 @@ The project was deployed to GitHub Pages (Link [here](https://andreeeasn.github.
 If the link doesn't appear after refreshing your page, wait for a few minutes before trying again
 
 ## Testing
+
+### Links
+  - Every link on the navigation bar has been tested from every page and lead to where they're supposed to.
+  - Links from the mobile version of the navigation bar have proven to work from every page as well.
+  - External links (Bandai Namco E-sports portal on About TEKKEN page and GitHub/LinkedIn links on every page footer) all open in a separate tab upon being clicked. 
 
 ### Validator Testing
   - HTML
@@ -164,7 +197,6 @@ Images used:
   - The README presentation image was taken from [Am I Responsive?](https://ui.dev/amiresponsive)
   - All hero images are in-game captures of TEKKEN 7 (Owned by Bandai Namco), taken using Nvidia GeForce Experience Photo Mode.
   - Logos for mainline games 1-7 and icons for input notations are from the Gallery included in the official TEKKEN 7 release.
-  - The TEKKEN Rundown logo was created using the TEKKEN 
   - The TEKKEN 8 and TEKKEN World Tour logos used are from the [Official Bandai Namco Website](https://en.bandainamcoent.eu/tekken).
 
 Videos used: 
@@ -178,7 +210,7 @@ Resources and tutorials used for developing this project:
   - [w3cschools.com - HTML Tables](https://www.w3schools.com/html/html_tables.asp)
   - [webdevetc.com - How to add a gradient overlay to a background](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/)
   - [css-tricks.com - Three CSS Alternatives to JavaScript Navigation](https://css-tricks.com/three-css-alternatives-to-javascript-navigation/#aa-alternative-3-the-css-only-hamburger-menu)<br> 
-  This project uses edited CSS code from this tutorial in particular (Alternative 3: The CSS-only hamburger menu, written by Blake Lundquist) to create a mobile navigation menu without having to resort to javascript.
+  This project uses edited CSS code from this tutorial in particular (Alternative 3: The CSS-only hamburger menu, written by Blake Lundquist) to create a mobile navigation menu without resorting to javascript.
   - Most information regarding release dates, platforms and content from previous TEKKEN installments came from the [TEKKEN Wiki](https://tekken.fandom.com/wiki/Tekken_Wiki).
 
 Big thanks to my Code Institute mentor, [Lauren-Nicole Popich](https://www.linkedin.com/in/lauren-nicole-popich-1ab87539/) for helping push the project in the right direction.
